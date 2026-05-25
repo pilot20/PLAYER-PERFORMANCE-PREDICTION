@@ -1,6 +1,8 @@
 import os
 import sys
 
+python -m sphinx -T -j auto -b html -d _build/doctrees -D language=en . _build/html
+
 # -- Path setup --------------------------------------------------------------
 # If your documentation documents your source code, point Sphinx to it.
 # This injects your project root into the Python path so autodoc can find your modules.
